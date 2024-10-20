@@ -1,0 +1,8 @@
+Project
+Due to our interest in music, we developed a system that can analyze audio features and identify different types of musical instruments. The core of our approach involves extracting MFCC (Mel-frequency cepstral coefficients) from audio signals, which are widely used to represent the spectral characteristics of sound. These features are then fed into a Convolutional Neural Network (CNN) to perform the classification task.
+Project Overview
+Audio Feature Extraction:
+We use MFCCs to extract relevant features from audio signals. MFCCs capture the timbral aspects of the sound, making them effective for distinguishing between different instruments.
+
+Classification using CNN:
+The extracted MFCCs are used as input to a CNN model. CNNs are powerful tools for pattern recognition, especially with multidimensional data like audio spectrograms or feature maps. The network learns to differentiate various musical instruments based on the unique patterns found in the MFCC features.
