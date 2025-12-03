@@ -217,8 +217,6 @@ $$
 \tilde{x}_{t,d} = \frac{x_{t,d} - x_d^{\text{min}}}{x_d^{\text{max}} - x_d^{\text{min}}}
 $$
 
-（也可能是對整幀做 L2-normalize，不過在語音 / 這種圖裡，多半是指「**per-feature min-max**」）
-
 **效果：**
 
 - 每一維被壓到固定範圍、數值穩定
